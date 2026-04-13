@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Manrope", "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:
+    radial-gradient(circle at 8% 10%, rgba(86, 121, 255, 0.1), transparent 40%),
+    radial-gradient(circle at 88% 86%, rgba(45, 181, 145, 0.1), transparent 35%),
+    #f3f7fb;
+  color: #16324f;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+}
